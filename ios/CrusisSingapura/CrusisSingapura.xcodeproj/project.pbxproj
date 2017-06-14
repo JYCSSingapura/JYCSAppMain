@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0048021EF1607F00692D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0048011EF1607F00692D48 /* AppDelegate.swift */; };
+		CF0048041EF1607F00692D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0048031EF1607F00692D48 /* ViewController.swift */; };
+		CF0048071EF1607F00692D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0048051EF1607F00692D48 /* Main.storyboard */; };
+		CF0048091EF1607F00692D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0048081EF1607F00692D48 /* Assets.xcassets */; };
+		CF00480C1EF1607F00692D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF00480A1EF1607F00692D48 /* LaunchScreen.storyboard */; };
+		CF0048171EF1608000692D48 /* CrusisSingapuraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0048161EF1608000692D48 /* CrusisSingapuraTests.swift */; };
+		CF0048221EF1608000692D48 /* CrusisSingapuraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0048211EF1608000692D48 /* CrusisSingapuraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF0048131EF1607F00692D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0047F61EF1607F00692D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF0047FD1EF1607F00692D48;
+			remoteInfo = CrusisSingapura;
+		};
+		CF00481E1EF1608000692D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0047F61EF1607F00692D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF0047FD1EF1607F00692D48;
+			remoteInfo = CrusisSingapura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0047FE1EF1607F00692D48 /* CrusisSingapura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrusisSingapura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0048011EF1607F00692D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF0048031EF1607F00692D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF0048061EF1607F00692D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF0048081EF1607F00692D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF00480B1EF1607F00692D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF00480D1EF1607F00692D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0048121EF1607F00692D48 /* CrusisSingapuraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrusisSingapuraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0048161EF1608000692D48 /* CrusisSingapuraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrusisSingapuraTests.swift; sourceTree = "<group>"; };
+		CF0048181EF1608000692D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF00481D1EF1608000692D48 /* CrusisSingapuraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrusisSingapuraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0048211EF1608000692D48 /* CrusisSingapuraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrusisSingapuraUITests.swift; sourceTree = "<group>"; };
+		CF0048231EF1608000692D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0047FB1EF1607F00692D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00480F1EF1607F00692D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00481A1EF1608000692D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0047F51EF1607F00692D48 = {
+			isa = PBXGroup;
+			children = (
+				CF0048001EF1607F00692D48 /* CrusisSingapura */,
+				CF0048151EF1608000692D48 /* CrusisSingapuraTests */,
+				CF0048201EF1608000692D48 /* CrusisSingapuraUITests */,
+				CF0047FF1EF1607F00692D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0047FF1EF1607F00692D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF0047FE1EF1607F00692D48 /* CrusisSingapura.app */,
+				CF0048121EF1607F00692D48 /* CrusisSingapuraTests.xctest */,
+				CF00481D1EF1608000692D48 /* CrusisSingapuraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF0048001EF1607F00692D48 /* CrusisSingapura */ = {
+			isa = PBXGroup;
+			children = (
+				CF0048011EF1607F00692D48 /* AppDelegate.swift */,
+				CF0048031EF1607F00692D48 /* ViewController.swift */,
+				CF0048051EF1607F00692D48 /* Main.storyboard */,
+				CF0048081EF1607F00692D48 /* Assets.xcassets */,
+				CF00480A1EF1607F00692D48 /* LaunchScreen.storyboard */,
+				CF00480D1EF1607F00692D48 /* Info.plist */,
+			);
+			path = CrusisSingapura;
+			sourceTree = "<group>";
+		};
+		CF0048151EF1608000692D48 /* CrusisSingapuraTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0048161EF1608000692D48 /* CrusisSingapuraTests.swift */,
+				CF0048181EF1608000692D48 /* Info.plist */,
+			);
+			path = CrusisSingapuraTests;
+			sourceTree = "<group>";
+		};
+		CF0048201EF1608000692D48 /* CrusisSingapuraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0048211EF1608000692D48 /* CrusisSingapuraUITests.swift */,
+				CF0048231EF1608000692D48 /* Info.plist */,
+			);
+			path = CrusisSingapuraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF0047FD1EF1607F00692D48 /* CrusisSingapura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0048261EF1608000692D48 /* Build configuration list for PBXNativeTarget "CrusisSingapura" */;
+			buildPhases = (
+				CF0047FA1EF1607F00692D48 /* Sources */,
+				CF0047FB1EF1607F00692D48 /* Frameworks */,
+				CF0047FC1EF1607F00692D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrusisSingapura;
+			productName = CrusisSingapura;
+			productReference = CF0047FE1EF1607F00692D48 /* CrusisSingapura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF0048111EF1607F00692D48 /* CrusisSingapuraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0048291EF1608000692D48 /* Build configuration list for PBXNativeTarget "CrusisSingapuraTests" */;
+			buildPhases = (
+				CF00480E1EF1607F00692D48 /* Sources */,
+				CF00480F1EF1607F00692D48 /* Frameworks */,
+				CF0048101EF1607F00692D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0048141EF1607F00692D48 /* PBXTargetDependency */,
+			);
+			name = CrusisSingapuraTests;
+			productName = CrusisSingapuraTests;
+			productReference = CF0048121EF1607F00692D48 /* CrusisSingapuraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF00481C1EF1608000692D48 /* CrusisSingapuraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF00482C1EF1608000692D48 /* Build configuration list for PBXNativeTarget "CrusisSingapuraUITests" */;
+			buildPhases = (
+				CF0048191EF1608000692D48 /* Sources */,
+				CF00481A1EF1608000692D48 /* Frameworks */,
+				CF00481B1EF1608000692D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF00481F1EF1608000692D48 /* PBXTargetDependency */,
+			);
+			name = CrusisSingapuraUITests;
+			productName = CrusisSingapuraUITests;
+			productReference = CF00481D1EF1608000692D48 /* CrusisSingapuraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0047F61EF1607F00692D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jesus Youth";
+				TargetAttributes = {
+					CF0047FD1EF1607F00692D48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CF0048111EF1607F00692D48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF0047FD1EF1607F00692D48;
+					};
+					CF00481C1EF1608000692D48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF0047FD1EF1607F00692D48;
+					};
+				};
+			};
+			buildConfigurationList = CF0047F91EF1607F00692D48 /* Build configuration list for PBXProject "CrusisSingapura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0047F51EF1607F00692D48;
+			productRefGroup = CF0047FF1EF1607F00692D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF0047FD1EF1607F00692D48 /* CrusisSingapura */,
+				CF0048111EF1607F00692D48 /* CrusisSingapuraTests */,
+				CF00481C1EF1608000692D48 /* CrusisSingapuraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0047FC1EF1607F00692D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF00480C1EF1607F00692D48 /* LaunchScreen.storyboard in Resources */,
+				CF0048091EF1607F00692D48 /* Assets.xcassets in Resources */,
+				CF0048071EF1607F00692D48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0048101EF1607F00692D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00481B1EF1608000692D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0047FA1EF1607F00692D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0048041EF1607F00692D48 /* ViewController.swift in Sources */,
+				CF0048021EF1607F00692D48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00480E1EF1607F00692D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0048171EF1608000692D48 /* CrusisSingapuraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0048191EF1608000692D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0048221EF1608000692D48 /* CrusisSingapuraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF0048141EF1607F00692D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF0047FD1EF1607F00692D48 /* CrusisSingapura */;
+			targetProxy = CF0048131EF1607F00692D48 /* PBXContainerItemProxy */;
+		};
+		CF00481F1EF1608000692D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF0047FD1EF1607F00692D48 /* CrusisSingapura */;
+			targetProxy = CF00481E1EF1608000692D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF0048051EF1607F00692D48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0048061EF1607F00692D48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF00480A1EF1607F00692D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF00480B1EF1607F00692D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF0048241EF1608000692D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF0048251EF1608000692D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0048271EF1608000692D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrusisSingapura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jysingapore.CrusisSingapura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF0048281EF1608000692D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrusisSingapura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jysingapore.CrusisSingapura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF00482A1EF1608000692D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrusisSingapuraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jysingapore.CrusisSingapuraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrusisSingapura.app/CrusisSingapura";
+			};
+			name = Debug;
+		};
+		CF00482B1EF1608000692D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrusisSingapuraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jysingapore.CrusisSingapuraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrusisSingapura.app/CrusisSingapura";
+			};
+			name = Release;
+		};
+		CF00482D1EF1608000692D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CrusisSingapuraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jysingapore.CrusisSingapuraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrusisSingapura;
+			};
+			name = Debug;
+		};
+		CF00482E1EF1608000692D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CrusisSingapuraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jysingapore.CrusisSingapuraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrusisSingapura;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0047F91EF1607F00692D48 /* Build configuration list for PBXProject "CrusisSingapura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0048241EF1608000692D48 /* Debug */,
+				CF0048251EF1608000692D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0048261EF1608000692D48 /* Build configuration list for PBXNativeTarget "CrusisSingapura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0048271EF1608000692D48 /* Debug */,
+				CF0048281EF1608000692D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF0048291EF1608000692D48 /* Build configuration list for PBXNativeTarget "CrusisSingapuraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF00482A1EF1608000692D48 /* Debug */,
+				CF00482B1EF1608000692D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF00482C1EF1608000692D48 /* Build configuration list for PBXNativeTarget "CrusisSingapuraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF00482D1EF1608000692D48 /* Debug */,
+				CF00482E1EF1608000692D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0047F61EF1607F00692D48 /* Project object */;
+}
